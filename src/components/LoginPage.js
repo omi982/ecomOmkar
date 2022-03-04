@@ -12,31 +12,32 @@ export default function SignInPage() {
     return (
         
         <div className="text-center auto">
-
         
-            <img src={pic1} align="left"  alt="pic" width={500} height={750} />
-            <img src={pic2} align="left"/>
-            <h2  style={{fontFamily: "Gilroy"}}>Sign in</h2>
-            {/* <img src={pic3} align="left"/> */}
-            <form >
+            <img src={pic1} align="left" alt="pic" width={500} height={750} />
+            <img src={pic2} style={{position: "relative",right:"570px" }} />
+            <h2  style={{fontFamily: "Microsoft Sans Serif",color:"GrayText",position: "relative",right:"100px"}}>Sign in</h2>
+            <br></br>
+            <img src={pic3} style={{position: "relative",left:"0px" }} width={400} height={100}/>
+            <br></br>
+            <form style={{width:"400px"}}>
                 <p>
-                    <label style={{fontFamily: "Gilroy"}}>Username</label><br/>
-                    <input type="text" name="first_name" required />
+                    <label style={{fontFamily: "Microsoft Sans Serif",color:"GrayText"}}>Username</label><br/>
+                    <input type="text" name="first_name" required style={{width:"350px"}} />
                 </p>
                 <p>
-                    <label style={{fontFamily: "Gilroy"}}>Password</label>
+                    <label style={{fontFamily: "Microsoft Sans Serif",color:"GrayText"}}>Password</label>
                     <br/>
-                    <input type="password" name="password" required />
+                    <input type="password" name="password" required style={{width:"350px"}}/>
                 </p>
                 <p>
-                    <button id="sub_btn" type="submit" style={{fontFamily: "Gilroy"}}>Login</button>
+                    <button id="sub_btn" type="submit" style={{fontFamily: "Microsoft Sans Serif",background:"darkorange",width:"350px"}}>Login</button>
                 </p>
             </form>
-            <footer>
-                <p style={{fontFamily: "Gilroy"}}><Link to="/register">Forget password?</Link></p>
-                <p style={{fontFamily: "Gilroy"}}>First time? <Link to="/register">Create an account</Link></p>
-                <p style={{fontFamily: "Gilroy"}}><Link to="/">Back to Homepage</Link></p>
-            </footer>
+                <p>
+                    <Link to="/register" style={{fontFamily: "Microsoft Sans Serif",color:"olivedrab", position: "relative",right:"60px"}}>Forget password?</Link>
+                    <Link to="/register" style={{fontFamily: "Microsoft Sans Serif",color:"olivedrab", position: "relative",left:"60px"}}>Sign up!</Link>
+                </p>
+                {/* <p style={{fontFamily: "Gilroy"}}><Link to="/">Back to Homepage</Link></p> */}
         </div>
     );
 }
