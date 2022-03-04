@@ -1,84 +1,70 @@
-# Logster - login/register-page-app
+# Getting Started with Create React App
 
-> Simple login/register-page-app created with React js.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Logster is a React app that has a Login, Register and Reset password features. This is just the Front-end of the app, no Back-end.
+## Available Scripts
 
-## Table of contents
-* [Functionalities](#functionalities)
-* [Technologies](#technologies)
-* [Live App](#live-app)
-* [Packages & Libraries](#packages-&-libraries)
-* [Contributing](#contributing)
-* [Support](#support)
-* [Final Words](#final-words)
-* [License](#license)
+In the project directory, you can run:
 
-## Functionalities
+### `npm start`
 
-* Login with username and password
-* Create an account
-* Reset password
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Technologies
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-* React js
-* HTML5
-* CSS3
+### `npm test`
 
-## Live App
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-To view and test the app you can visit this [link](https://logsterapp.netlify.com/).
+### `npm run build`
 
-## Packages & Libraries
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Contributing
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Pull requests are welcome. Please feel free to submit an issue first to discuss what you would like to change.
+### `npm run eject`
 
-The process to start is simple, just make sure you have [Node js](https://nodejs.org/en/) installed in your computer. 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-First you need to go to project's main directory which contains package.json file
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-    git clone [Repository]
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-    cd [Repository-Directory]
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-    npm install
+## Learn More
 
-    npm start
-```
-or
-```bash
-    git clone [Repository]
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-    cd [Repository-Directory]
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-    yarn install
+### Code Splitting
 
-    yarn start
-```
-.. happy Coding..!!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Support
+### Making a Progressive Web App
 
-Reach out to me at one of the following places!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- Website at <a href="https://izemspot.netlify.com" target="_blank">`izemspot.netlify.com`</a>
-- Gmail <a href="mailto:zmr.ilyas@gmail.com" target="_blank">`zmr.ilyas@gmail.com`</a>
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
-## Final Words
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-If you like the app, please give it a star. It will mean a lot for me :)
+### `npm run build` fails to minify
 
-## License
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2019 © <a href="https://izemspot.netlify.com" target="_blank">IZEMSPOT</a>.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
