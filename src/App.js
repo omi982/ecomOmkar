@@ -11,7 +11,6 @@ import './App.css'
 
 export default function App() {
     return (
-        //Lauda
         <Router>
             <div>
                 <Switch>
