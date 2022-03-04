@@ -38,7 +38,7 @@ export default function SignUpPage() {
                     <input type="checkbox" name="checkbox" id="checkbox" required /> <span>I agree all statements in <a href="https://google.com" target="_blank" rel="noopener noreferrer" style={{color:"darkorange"}}>terms of service</a></span>.
                 </p>
                 <p>
-                    <button id="sub_btn" type="submit" style={{fontFamily: "Microsoft Sans Serif",background:"darkorange",width:"350px",fontSize:"17px"}}>Sign Up</button>
+                    <button id="sub_btn" type="submit" style={{fontFamily: "Microsoft Sans Serif",background:"darkorange",width:"350px",fontSize:"17px"}}>SIGN UP</button>
                 </p>
             </form>
             <footer>
