@@ -44,6 +44,9 @@ export default function SignUpPage() {
             <footer>
                 <p><Link to="/login" style={{fontFamily: "Microsoft Sans Serif",color:"olivedrab", position: "relative",right:"95px"}}>Already have an account -{'>'}</Link></p>
             </footer>
+            <footer>
+                <p><Link to="/login" style={{fontFamily: "Microsoft Sans Serif",color:"orange", position: "relative",right:"95px"}}>Already have an account -{'>'}</Link></p>
+            </footer>
         </div>
     )
 

@@ -14,6 +14,9 @@ export default function LandingPage() {
                 <Link to="/register">
                     <button className="primary-button" id="reg_btn"><span>register </span></button>
                 </Link>
+                <Link to="/productdetails">
+                    <button className="primary-button">ProductDetails</button>
+                </Link>
             </div>
         </header>
     )
@@ -25,5 +28,5 @@ const HeaderStyle = {
     background: `url(${pic})`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    backgroundSize: "cover"
+    backgroundSize:"cover"
 }

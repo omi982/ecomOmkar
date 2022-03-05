@@ -6,6 +6,7 @@ import LoginPage from './components/LoginPage'
 import RegisterPage from './components/RegisterPage'
 import ForgetPasswordPage from './components/ForgetPasswordPage'
 import HomePage from './components/HomePage'
+import ProDetl from './components/ProductDetails'
 
 import './App.css'
 
@@ -19,6 +20,7 @@ export default function App() {
                     <Route path="/register" component={ RegisterPage } />
                     <Route path="/forget-password" component={ ForgetPasswordPage } />
                     <Route path="/home" component={ HomePage } />
+                    <Route path="/productdetails" component={ProDetl} />
                 </Switch>
                 {/* <Footer/> */}
             </div>
