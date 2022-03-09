@@ -40,12 +40,13 @@ export default function ProductDetails() {
                 <img src={bag} style={{position:"absolute",left:"1%",top:"26%"}}/>
                 <button id="sub_btn" type="submit" style={{fontStyle:"italic",background:"orange",width:"200px",height:"60px",fontSize:"17px",position:"absolute",left:"32%",top:"25%"}}>WISHLIST</button>
                 <img src={like} style={{position:"absolute",left:"35%",top:"26.5%"}}/>
-
                 <img src={line} style={{position:"absolute",top:"32%",left:"0%"}}/>
+
                 <p>Get it by Sat, Feb 05 - 462023<br></br>
                 Seller: Omnitech Retail </p>
-                {/* <img src={line} /> */}
+                <img src={line}/>
 
+        {/* here */}
                 <p>DELIVERY OPTIONS</p>
                 <img src={deliver}/><p>Get it by Sat, Feb 05<br></br>
                 <img src={card}/>Pay on delivery available<br></br>
