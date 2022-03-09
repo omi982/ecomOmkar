@@ -59,6 +59,7 @@ export default function ProductDetails() {
                 <p>EMI starting from Rs.77/month</p>
                 <img src={line} />
 
+                <div >
                 <p>PRODUCT DETAILS</p>
                 <p>When you enjoy your morning run, you need to have the right gear.<br></br>
                 Cut from fabric enhanced with Rapid-Dry and Anti Microbial technology,<br></br>
@@ -80,7 +81,7 @@ export default function ProductDetails() {
                 Sleeve length: Full Sleeves<br></br>
                 Design: Solid<br></br>
                 Length: Regular length<br></br>
-                Fit: Regular fit</p>
+                Fit: Regular fit</p></div>
             </div>
 
             <img src={add} style={{position:"absolute",width:"90px",height:"90px",left:"17.5%",top:"90%"}}/>
