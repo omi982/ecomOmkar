@@ -36,15 +36,15 @@ export default function ProductDetails() {
                 <img src={size}  style={{position:"relative",left:"8%"}}/> <p style={{position:"absolute",left:"45%",top:"20%",fontSize:"25px"}}>XXL</p>
 
                 {/* BUTTONS */}
-                <button id="sub_btn" type="submit" style={{fontStyle:"italic",background:"red",width:"232px",height:"60px",fontSize:"17px"}}>ADD TO CART</button>
-                <img src={bag}/>
-                <button id="sub_btn" type="submit" style={{fontStyle:"italic",background:"red",width:"232px",height:"60px",fontSize:"17px"}}>WISHLIST</button>
-                <img src={like} style={{position:"relative"}}/>
+                <button id="sub_btn" type="submit" style={{fontStyle:"italic",background:"red",width:"200px",height:"60px",fontSize:"17px",position:"absolute",top:"25%"}}>ADD TO CART</button>
+                <img src={bag} style={{position:"absolute",left:"1%",top:"26%"}}/>
+                <button id="sub_btn" type="submit" style={{fontStyle:"italic",background:"orange",width:"200px",height:"60px",fontSize:"17px",position:"absolute",left:"32%",top:"25%"}}>WISHLIST</button>
+                <img src={like} style={{position:"absolute",left:"35%",top:"26.5%"}}/>
 
-                <img src={line} style={{position:"absolute",top:"24.3%",left:"0%"}}/>
+                <img src={line} style={{position:"absolute",top:"32%",left:"0%"}}/>
                 <p>Get it by Sat, Feb 05 - 462023<br></br>
                 Seller: Omnitech Retail </p>
-                <img src={line} />
+                {/* <img src={line} /> */}
 
                 <p>DELIVERY OPTIONS</p>
                 <img src={deliver}/><p>Get it by Sat, Feb 05<br></br>
