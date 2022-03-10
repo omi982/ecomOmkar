@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import pic1 from "../assets/ShoppingGirl.jpeg"
-import pic2 from "../assets/LOGO.jpeg"
+import pic2 from "../assets/LOGO.png"
 import pic3 from "../assets/gogface.png"
 
-import '../App.css'
-import { render } from 'react-dom'
+// import '../App.css'
 
 export default function SignInPage() {
 
@@ -14,7 +13,7 @@ export default function SignInPage() {
         <div className="text-center auto">
         
             <img src={pic1} align="left" alt="pic" width={500} height={750} />
-            <img src={pic2} style={{position: "relative",right:"570px" }} />
+            <img src={pic2} id='logo' />
             <h2  style={{fontFamily: "Microsoft Sans Serif",color:"Black",position: "relative",right:"150px",fontSize:"35px"}}>Sign in</h2>
             <br></br>
             <img src={pic3} style={{position: "relative",left:"0px" }} width={400} height={100}/>

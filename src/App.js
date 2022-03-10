@@ -7,8 +7,9 @@ import RegisterPage from './components/RegisterPage'
 import ForgetPasswordPage from './components/ForgetPasswordPage'
 import HomePage from './components/HomePage'
 import ProDetl from './components/ProductDetails'
+import adrs from './components/Address'
 
-import './App.css'
+// import './App.css'
 
 export default function App() {
     return (
@@ -21,6 +22,7 @@ export default function App() {
                     <Route path="/forget-password" component={ ForgetPasswordPage } />
                     <Route path="/home" component={ HomePage } />
                     <Route path="/productdetails" component={ProDetl} />
+                    <Route path="/address" component={adrs}/>
                 </Switch>
                 {/* <Footer/> */}
             </div>

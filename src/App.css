@@ -113,7 +113,20 @@ input {
     color: #fff;
     border-radius: 3px;
 }
-
+#sub_add {
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    border: none;
+    background: rgb(167, 21, 21);
+    color: #fff;
+    border-radius: 10px;
+}
+#logo{
+    position: relative;
+    right: 590px;
+    top:10px
+}
 #sub_btn:hover {
     background: #333;
     transition: all .5s

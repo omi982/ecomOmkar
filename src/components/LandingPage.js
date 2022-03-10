@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import '../App.css'
-import pic from "../assets/LOGO.jpeg"
+import pic from "../assets/LOGO.png"
 
 export default function LandingPage() {
     return (
@@ -16,6 +15,9 @@ export default function LandingPage() {
                 </Link>
                 <Link to="/productdetails">
                     <button className="primary-button">ProductDetails</button>
+                </Link>
+                <Link to="/address">
+                    <button className="primary-button">Address</button>
                 </Link>
             </div>
         </header>

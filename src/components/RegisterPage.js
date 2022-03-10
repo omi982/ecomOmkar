@@ -1,17 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import pic1 from "../assets/ShoppingGirl.jpeg"
-import pic2 from "../assets/LOGO.jpeg"
+import pic2 from "../assets/LOGO.png"
 import pic3 from "../assets/gogface.png"
 
-import '../App.css'
 
 export default function SignUpPage() {
 
     return (
         <div className="text-center auto">
             <img src={pic1} align="left"  alt="pic" width={500} height={750} />
-            <img src={pic2} style={{position: "relative",right:"570px" }} />
+            <img id='logo' src={pic2} />
             <h3  style={{fontFamily: "Microsoft Sans Serif",color:"Black",position: "relative",right:"10px",fontSize:"25px"}}>Register Yourself</h3>
             <form action="/home" style={{width:"400px"}}>
                 <p>
@@ -44,9 +43,9 @@ export default function SignUpPage() {
             <footer>
                 <p><Link to="/login" style={{fontFamily: "Microsoft Sans Serif",color:"olivedrab", position: "relative",right:"95px"}}>Already have an account -{'>'}</Link></p>
             </footer>
-            <footer>
+            {/* <footer>
                 <p><Link to="/login" style={{fontFamily: "Microsoft Sans Serif",color:"orange", position: "relative",right:"95px"}}>Already have an account -{'>'}</Link></p>
-            </footer>
+            </footer> */}
         </div>
     )
 
