@@ -134,19 +134,28 @@ input {
 }
 #head{
     color: #707070;
-    font-size: 25px;
+    font-size: 21px;
     position: absolute;
-    bottom: 700px;
+    bottom: 670px;
 }
 #headline{
     width: 124px;
     position:absolute;
-    bottom:735px;
+    bottom:705px;
 }
-#formtxt{
-    font-family: "Microsoft Sans Serif";
-    color:"Black";
-    font-size:"17px"
+#formadrs{
+    position:absolute;
+    background-color: rgba(247, 127, 127, 0.178);
+    border-radius: 0px;
+    left:500px;
+    width:500px
+}
+#fname{
+    font-size: 23px;
+    font-family: Segoe UI;
+    position: absolute;
+    left:500px;
+    bottom:320px
 }
 
 #sub_btn:hover {
