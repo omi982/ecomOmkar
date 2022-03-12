@@ -12,7 +12,7 @@ export default function SignUpPage() {
             <img src={pic1} align="left"  alt="pic" width={500} height={750} />
             <img id='logo' src={pic2} />
             <h3  style={{fontFamily: "Microsoft Sans Serif",color:"Black",position: "relative",right:"10px",fontSize:"25px"}}>Register Yourself</h3>
-            <form action="/home" style={{width:"400px"}}>
+            <form action="/home" >
                 <p>
                     <label style={{fontFamily: "Microsoft Sans Serif",color:"Black",fontSize:"17px"}}>Name</label><br/>
                     <input type="text" name="first_name" required style={{width:"350px"}}/>

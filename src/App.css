@@ -81,7 +81,8 @@ form {
     border: 1px solid #ddd;
     border-radius: 2px;
     padding: 2rem;
-    margin: 2rem 0 1rem 0
+    margin: 2rem 0 1rem 0;
+    width: 400px;
 }
 
 form label {
@@ -114,8 +115,12 @@ input {
     border-radius: 3px;
 }
 #sub_add {
+    position:relative;
+    left:500px;
+    top:650px;
     display: block;
-    width: 100%;
+    width: 500px;
+    height:45px;
     padding: .3rem;
     border: none;
     background: rgb(167, 21, 21);
@@ -127,6 +132,23 @@ input {
     right: 590px;
     top:10px
 }
+#head{
+    color: #707070;
+    font-size: 25px;
+    position: absolute;
+    bottom: 700px;
+}
+#headline{
+    width: 124px;
+    position:absolute;
+    bottom:735px;
+}
+#formtxt{
+    font-family: "Microsoft Sans Serif";
+    color:"Black";
+    font-size:"17px"
+}
+
 #sub_btn:hover {
     background: #333;
     transition: all .5s

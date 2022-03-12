@@ -18,7 +18,7 @@ export default function SignInPage() {
             <br></br>
             <img src={pic3} style={{position: "relative",left:"0px" }} width={400} height={100}/>
             <br></br>
-            <form style={{width:"400px"}}>
+            <form >
                 <p>
                     <label style={{fontFamily: "Microsoft Sans Serif",color:"Black",fontSize:"17px"}}>Username</label><br/>
                     <input type="text" name="first_name" required style={{width:"350px"}} />
