@@ -19,6 +19,9 @@ export default function LandingPage() {
                 <Link to="/address">
                     <button className="primary-button">Address</button>
                 </Link>
+                <Link to="/pay">
+                    <button className="primary-button">Payment</button>
+                </Link>
             </div>
         </header>
     )

@@ -8,8 +8,9 @@ import ForgetPasswordPage from './components/ForgetPasswordPage'
 import HomePage from './components/HomePage'
 import ProDetl from './components/ProductDetails'
 import adrs from './components/Address'
+import pay from './components/Payment'
 
-// import './App.css'
+import './App.css'
 
 export default function App() {
     return (
@@ -23,6 +24,7 @@ export default function App() {
                     <Route path="/home" component={ HomePage } />
                     <Route path="/productdetails" component={ProDetl} />
                     <Route path="/address" component={adrs}/>
+                    <Route path="/pay" component={pay}/>
                 </Switch>
                 {/* <Footer/> */}
             </div>

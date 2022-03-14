@@ -17,12 +17,12 @@ export default function address(){
             <p id='head' style={{left:"890px"}}>Payment</p>
             <img src={line} id='headline' style={{left:"550px"}}/>
             <img src={line} id='headline' style={{left:"770px"}}/>
-            <input id='formadrs'type={'text'} placeholder="City/District" style={{width:"220px",bottom:"130px"}}/>
+            <input id='formadrs'type={'tel'} placeholder="City/District" style={{width:"220px",bottom:"130px"}}/>
             <input id='formadrs'type={'text'} placeholder="State" style={{width:"240px",bottom:"130px",left:"750px"}}/>
             <input id='formadrs'type={'text'} placeholder="Locality/Town" style={{bottom:"190px"}}/>
             <input id='formadrs'type={'text'} placeholder="(House no.,Street,Area)" style={{bottom:"240px"}}/>
             <input id='formadrs'type={'text'} placeholder="Pincode" style={{bottom:"290px"}}/>
-            <input id='formadrs'type={'text'} placeholder="Mobile No." style={{bottom:"420px"}}/>
+            <input id='formadrs'type={'number'} placeholder="Mobile No." style={{bottom:"420px"}}/>
             <input id='formadrs'type={'text'} placeholder="Name" style={{bottom:"470px"}}/>
             <p id='fname' >ADDRESS/</p>
             <p id='fname' style={{color:"GrayText",left:"610px"}}>(use current location)</p>
