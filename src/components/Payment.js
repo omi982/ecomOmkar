@@ -12,6 +12,7 @@ import wallet from '../assets/Icon awesome-wallet.png'
 import netbank from '../assets/internet-banking-line-icon-png_233993-removebg-preview.png'
 import line from '../assets/Line 19.png'
 import dropdown from '../assets/Icon awesome-caret-down.png'
+import line1 from '../assets/Line 12.png'
 
 export default function payment(){
     return(
@@ -28,8 +29,10 @@ export default function payment(){
                 </p>
                 <img src={dropdown} style={{position:"absolute" ,top:"62px",left:"130px"}}/>
             </p>
+
             <p style={{position:"absolute",left:"85px",top:"165px"}}>Choose Payment Method:</p>
             <p style={{position:"absolute",left:"600px",top:"165px"}}>Pay on Delivery(Cash/Card/UPI)</p>
+
             <p id='fcontainerpayment'>
                 <p id='fitempayment'>
                     <img src={cash}/>
@@ -64,6 +67,20 @@ export default function payment(){
                     </p>
                 </p>
             </p>
+
+            <button id='sub_add' type='submit' style={{width:"450px",top:"600px"}}>PLACE ORDER</button>
+
+            <img src={line} style={{position:"absolute",height:"600px",left:"1000px",top:"35px"}}/>
+
+            <p style={{position:"absolute",left:"1050px",fontFamily:"Gill Sans MT"}}>
+            <p style={{fontWeight:"bold"}}>PRICE DETAILS(1 item)</p>
+            <p>Total MRP                                      Rs.1700</p>
+            <p>Discount on MRP                                Rs.700</p>
+            <p>Convenience Fee                                Free</p>
+            </p>
+            <img src={line1} style={{position:"absolute",width:"400px",left:"1050px",top:"250px"}}/>
+            <p style={{position:"absolute",left:"1050px",top:"310px",fontWeight:"bold",fontFamily:"sans-serif"}}>Total Amount                                   Rs.1000</p>
+
         </div>
     )
 }
