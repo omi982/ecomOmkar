@@ -22,6 +22,9 @@ export default function LandingPage() {
                 <Link to="/pay">
                     <button className="primary-button">Payment</button>
                 </Link>
+                <Link to="/cart">
+                    <button className="primary-button">Cart</button>
+                </Link>
             </div>
         </header>
     )

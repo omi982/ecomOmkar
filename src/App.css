@@ -164,7 +164,7 @@ input {
     border: 1px solid black;
     position: absolute;
     left:85px;
-    top:40px
+    top:100px
 }
 #rectangle2{
     width: 800px;
@@ -177,7 +177,7 @@ input {
 #fcontainerpayment{
     position:absolute;
     left:80px;
-    top:240px;
+    top:300px;
     width:350px;
 }
 #fitempayment{

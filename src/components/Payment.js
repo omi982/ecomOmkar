@@ -13,10 +13,18 @@ import netbank from '../assets/internet-banking-line-icon-png_233993-removebg-pr
 import line from '../assets/Line 19.png'
 import dropdown from '../assets/Icon awesome-caret-down.png'
 import line1 from '../assets/Line 12.png'
+import lg from '../assets/LOGO.png'
 
 export default function payment(){
     return(
         <div>
+            <img src={lg}  id='logo'style={{position:"absolute",left:'160px'}} />
+            <p id='head' style={{left:"500px"}}>Cart</p>
+            <p id='head'style={{left:"680px"}}>Address</p>
+            <p id='head' style={{color:"rgb(167, 21, 21)",left:"890px"}}>Payment</p>
+            <img src={line1} id='headline' style={{left:"550px"}}/>
+            <img src={line1} id='headline' style={{left:"770px"}}/>
+
             <p id='rectangle'>
                 <img src={circle} style={{position:"absolute" ,top:"8px",left:"15px"}}/>
                 <img src={cross} style={{position:"absolute" ,top:"14px",left:"22px"}}/>
@@ -30,8 +38,8 @@ export default function payment(){
                 <img src={dropdown} style={{position:"absolute" ,top:"62px",left:"130px"}}/>
             </p>
 
-            <p style={{position:"absolute",left:"85px",top:"165px"}}>Choose Payment Method:</p>
-            <p style={{position:"absolute",left:"600px",top:"165px"}}>Pay on Delivery(Cash/Card/UPI)</p>
+            <p style={{position:"absolute",left:"85px",top:"225px"}}>Choose Payment Method:</p>
+            <p style={{position:"absolute",left:"600px",top:"225px"}}>Pay on Delivery(Cash/Card/UPI)</p>
 
             <p id='fcontainerpayment'>
                 <p id='fitempayment'>
@@ -68,18 +76,18 @@ export default function payment(){
                 </p>
             </p>
 
-            <button id='sub_add' type='submit' style={{width:"450px",top:"600px"}}>PLACE ORDER</button>
+            <button id='sub_add' type='submit' style={{width:"450px",top:"660px"}}>PLACE ORDER</button>
 
-            <img src={line} style={{position:"absolute",height:"600px",left:"1000px",top:"35px"}}/>
+            <img src={line} style={{position:"absolute",height:"600px",left:"1000px",top:"95px"}}/>
 
-            <p style={{position:"absolute",left:"1050px",fontFamily:"Gill Sans MT"}}>
+            <p style={{position:"absolute",left:"1050px",fontFamily:"Gill Sans MT",top:"100px"}}>
             <p style={{fontWeight:"bold"}}>PRICE DETAILS(1 item)</p>
             <p>Total MRP                                      Rs.1700</p>
             <p>Discount on MRP                                Rs.700</p>
             <p>Convenience Fee                                Free</p>
             </p>
-            <img src={line1} style={{position:"absolute",width:"400px",left:"1050px",top:"250px"}}/>
-            <p style={{position:"absolute",left:"1050px",top:"310px",fontWeight:"bold",fontFamily:"sans-serif"}}>Total Amount                                   Rs.1000</p>
+            <img src={line1} style={{position:"absolute",width:"400px",left:"1050px",top:"310px"}}/>
+            <p style={{position:"absolute",left:"1050px",top:"370px",fontWeight:"bold",fontFamily:"sans-serif"}}>Total Amount                                   Rs.1000</p>
 
         </div>
     )

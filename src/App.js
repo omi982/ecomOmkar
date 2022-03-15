@@ -9,6 +9,7 @@ import HomePage from './components/HomePage'
 import ProDetl from './components/ProductDetails'
 import adrs from './components/Address'
 import pay from './components/Payment'
+import cart from './components/Cart'
 
 import './App.css'
 
@@ -25,6 +26,7 @@ export default function App() {
                     <Route path="/productdetails" component={ProDetl} />
                     <Route path="/address" component={adrs}/>
                     <Route path="/pay" component={pay}/>
+                    <Route path="/cart" component={cart}/>
                 </Switch>
                 {/* <Footer/> */}
             </div>
