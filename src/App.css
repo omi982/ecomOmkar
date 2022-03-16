@@ -128,8 +128,8 @@ input {
     border-radius: 10px;
 }
 #logo{
-    position: relative;
-    right: 590px;
+    position: absolute;
+    left:23%;
     top:10px
 }
 #head{

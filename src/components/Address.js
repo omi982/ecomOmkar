@@ -11,7 +11,7 @@ export default function address(){
     return(
         <div>
             <button id='sub_add' type='submit' >ADD ADDRESS</button>
-            <img src={lg}  id='logo'style={{position:"absolute",left:'160px'}} />
+            <img src={lg}  id='logo'style={{left:'15%'}} />
             <p id='head' style={{left:"500px"}}>Cart</p>
             <p id='head'style={{color:"rgb(167, 21, 21)",left:"680px"}}>Address</p>
             <p id='head' style={{left:"890px"}}>Payment</p>
